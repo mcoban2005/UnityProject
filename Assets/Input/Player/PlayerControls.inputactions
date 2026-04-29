@@ -1,0 +1,78 @@
+{
+  "name": "PlayerControls",
+  "assetVersion": 1,
+  "maps": [
+    {
+      "name": "Player",
+      "actions": [
+        { "name": "Move", "type": "Value", "expectedControlType": "Vector2" },
+        { "name": "Look", "type": "Value", "expectedControlType": "Vector2" },
+        { "name": "Jump", "type": "Button" },
+        { "name": "Fire", "type": "Button" }
+      ],
+      "bindings": [
+        {
+          "path": "2DVector",
+          "action": "Move",
+          "isComposite": true,
+          "name": "Move",
+          "groups": "Keyboard&Mouse"
+        },
+        {
+          "path": "<Keyboard>/a",
+          "action": "Move",
+          "isPartOfComposite": true,
+          "name": "left",
+          "groups": "Keyboard&Mouse"
+        },
+        {
+          "path": "<Keyboard>/d",
+          "action": "Move",
+          "isPartOfComposite": true,
+          "name": "right",
+          "groups": "Keyboard&Mouse"
+        },
+        {
+          "path": "<Keyboard>/s",
+          "action": "Move",
+          "isPartOfComposite": true,
+          "name": "down",
+          "groups": "Keyboard&Mouse"
+        },
+        {
+          "path": "<Keyboard>/w",
+          "action": "Move",
+          "isPartOfComposite": true,
+          "name": "up",
+          "groups": "Keyboard&Mouse"
+        },
+        {
+          "path": "<Mouse>/delta",
+          "action": "Look",
+          "groups": "Keyboard&Mouse"
+        },
+        {
+          "path": "<Keyboard>/space",
+          "action": "Jump",
+          "groups": "Keyboard&Mouse"
+        },
+        {
+          "path": "<Mouse>/leftButton",
+          "action": "Fire",
+          "groups": "Keyboard&Mouse"
+        }
+      ]
+    }
+  ],
+  "controlSchemes": [
+    {
+      "name": "Keyboard&Mouse",
+      "bindingGroup": "Keyboard&Mouse",
+      "devices": [
+        { "devicePath": "<Keyboard>" },
+        { "devicePath": "<Mouse>" }
+      ]
+    }
+  ]
+}
+

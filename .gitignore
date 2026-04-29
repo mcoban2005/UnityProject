@@ -1,0 +1,27 @@
+# Unity
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+AssetBundles/
+StreamingAssets/AssetBundles/
+Logs/
+MemoryCaptures/
+MemoryCaptures-*/
+Crashlytics/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS
+.DS_Store
+Thumbs.db
+
