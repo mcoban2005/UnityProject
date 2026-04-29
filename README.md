@@ -5,6 +5,7 @@ Bu repo, **Unity 2022 LTS**, **New Input System** ve **CharacterController** kul
 ## Yapı
 
 - `Week1_IntroUnity/` .. `Week5_CapstoneFPS/` : Haftalık konu içerikleri ve örnek kodlar
+- `Week6_PolishWeaponAI/` : Haftalık mini geliştirmeler (weapon/ammo, crosshair, enemy AI)
 - `Assets/Input/Player/PlayerControls.inputactions` : Shared Input Actions (New Input System)
 - `.gitignore` : Unity için uygun ignore kuralları
 

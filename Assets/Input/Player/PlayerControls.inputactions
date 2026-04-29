@@ -8,7 +8,8 @@
         { "name": "Move", "type": "Value", "expectedControlType": "Vector2" },
         { "name": "Look", "type": "Value", "expectedControlType": "Vector2" },
         { "name": "Jump", "type": "Button" },
-        { "name": "Fire", "type": "Button" }
+        { "name": "Fire", "type": "Button" },
+        { "name": "Reload", "type": "Button" }
       ],
       "bindings": [
         {
@@ -59,6 +60,11 @@
         {
           "path": "<Mouse>/leftButton",
           "action": "Fire",
+          "groups": "Keyboard&Mouse"
+        },
+        {
+          "path": "<Keyboard>/g",
+          "action": "Reload",
           "groups": "Keyboard&Mouse"
         }
       ]
